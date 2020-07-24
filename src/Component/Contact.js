@@ -14,19 +14,19 @@ function Contact() {
             <div className="row ">
               <div className="col-md-8 col-12 mx-auto  mt-3">
                 <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name" />
+                  <div className="form-group">
+                    <label htmlFor="exampleInputEmail1">Name</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name" />
                   </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Email Address</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your e-mail address" />
+                  <div className="form-group">
+                    <label htmlFor="exampleInputPassword1">Email Address</label>
+                    <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Enter your e-mail address" />
                   </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Comment</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <div className="form-group">
+                    <label htmlFor="exampleFormControlTextarea1">Comment</label>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
-                  <button type="submit" class="btn btn-secondary">Submit</button>
+                  <button type="submit" className="btn btn-secondary">Submit</button>
                 </form>
 
               </div>

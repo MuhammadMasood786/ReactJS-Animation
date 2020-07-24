@@ -2,14 +2,11 @@ import React from 'react';
 import useWebAnimations, { bounceInDown, fadeInLeft } from "@wellyshen/use-web-animations";
 import Communication from '../Images/Meeting.gif';
 import '../App.css';
-// import About from './About';
-// import Contact from './Contact';
 
 function Home() {
 
-    const { ref: Animation1 } = useWebAnimations({ ...bounceInDown });
-    const { ref:Animation2 } = useWebAnimations({ ...fadeInLeft});
-
+    const { ref: Animation1 } = useWebAnimations({ ...bounceInDown});
+    const { ref: Animation2 } = useWebAnimations({ ...fadeInLeft});
 
     return (
         <div>
@@ -29,12 +26,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            {/* <hr className="text-secondary mt-5 hrLine"/>
-            <div className="aboutMargin">
-            <About/>
-            </div>
-            <hr className="text-secondary mt-5 hrLine"/>
-            <Contact/> */}
+            
         </div>
     );
 }
@@ -42,11 +34,3 @@ function Home() {
 export default Home;
 
 
-
-{/* <div className="container-fluid">
-<div className="row">
-    <div className="col-md-10 col-12 mx-auto">
-        <h1 className="target" ref={ref}>Welcome Home </h1>
-    </div>
-</div>
-</div> */}
