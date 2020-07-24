@@ -1,38 +1,43 @@
-.App {
+.colorChange{
+  background-color: #fff !important; 
+}
+
+.nav-link{
+  color: rgb(69, 156, 214) !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+.nav-link:hover{
+  color: grey !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Rowdies&family=Squada+One&display=swap');
+.navbar-brand{
+  font-family: 'Rowdies', cursive;
+  font-weight: bold !important;
+  color: rgb(69, 156, 214) !important;
+  font-size: 40px !important;
+}
+.navbar-brand:hover{
+  color:black!important ;
+}
+.setting{
+  font-family: 'Rowdies', cursive;
+  margin-top: 110px;
+}
+.setting1{
+  margin-top: 160px;
+  font-size: 18px;
+  font-weight: bolder;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutMargin{
+  margin-top: 110px;
+}
+.hrLine{
+  width: 80%;
   text-align: center;
+  font-weight: bold;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headingStyle{
+  font-family: 'Rowdies', cursive;
 }
