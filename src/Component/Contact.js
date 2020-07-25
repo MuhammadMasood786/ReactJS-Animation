@@ -31,6 +31,9 @@ function Contact() {
 
               </div>
             </div>
+            <div className="row mt-4">
+
+            </div>
           </div>
         </div>
       </div>

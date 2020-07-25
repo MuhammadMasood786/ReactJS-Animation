@@ -23,6 +23,9 @@ function Home() {
                                 <img src={Communication} ref={Animation1} width={650} height={400} alt="Communication" />
                             </div>
                         </div>
+                        <div className="row mt-4">
+
+                        </div>
                     </div>
                 </div>
             </div>

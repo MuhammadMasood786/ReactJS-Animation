@@ -19,11 +19,15 @@ function Navbar() {
                                             <NavLink className="nav-link" to="/">Home <span className="sr-only">(current)</span></NavLink>
                                         </li>
                                         <li className="nav-item">
+                                            <NavLink className="nav-link" to="services">Service</NavLink>
+                                        </li>
+                                        <li className="nav-item">
                                             <NavLink className="nav-link" to="about">About</NavLink>
                                         </li>
                                         <li className="nav-item">
                                             <NavLink className="nav-link" to="contact">Contact</NavLink>
                                         </li>
+                                       
                                     </ul>
                             </div>
                         </nav>
